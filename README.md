@@ -40,7 +40,7 @@
   <h3 align="center">e-commerce-store</h3>
 
   <p align="center">
-    A search for github repositories!
+    Backend for an e-commerce store.
     <br />
     <a href="https://github.com/tbegush/e-commerce-store"><strong>Explore the docs »</strong></a>
     <br />
@@ -87,10 +87,6 @@
 ## About The Project
 
 ![Note Taker App](/e-commerce-store-screenshot.png)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`tbegush`, `e-commerce-store`, `@tbegush`, `tbegush@gmail.com`, `e-commerce-store`, `An exciting application for taking notes!`
 
 
 ### Built With
