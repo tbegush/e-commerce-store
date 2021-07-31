@@ -50,8 +50,8 @@ router.get("/:id", (req, res) => {
 router.post("/", (req, res) => {
   // create a new category
   Category.create({
-    id: req.body.id,
-    category_name: req.body.category
+    category_name: req.body.categoryName
+    // post new categories as {"categoryName":"TOYS"}
   })
     .then(dbPostData => res.json(dbPostData))
     .catch(err => {
@@ -65,7 +65,7 @@ router.put("/:id", (req, res) => {
   // update a category by its `id` value
   Category.update(
     {
-      title: req.body.title
+      category_name: req.body.categoryName
     },
     {
       where: {
@@ -73,12 +73,8 @@ router.put("/:id", (req, res) => {
       }
     }
   )
-    .then(dbPostData => {
-      if (!dbPostData) {
-        res.status(404).json({ message: 'No category found with this id' });
-        return;
-      }
-      res.json(dbPostData);
+    .then(() => {
+      res.send("Category Updated");
     })
     .catch(err => {
       console.log(err);
@@ -95,10 +91,10 @@ router.delete("/:id", (req, res) => {
     })
       .then(dbPostData => {
         if (!dbPostData) {
-          res.status(404).json({ message: 'No Category found with this id' });
+          res.status(404).json({ message: 'No category found with this id' });
           return;
         }
-        res.json(dbPostData);
+                res.send("Deleted");
       })
       .catch(err => {
         console.log(err);
