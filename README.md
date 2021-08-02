@@ -43,6 +43,7 @@
     Backend for an e-commerce store.
     <br />
     <a href="https://drive.google.com/file/d/1HVQ7QSzINn49BwGR18sLl20Pn9-fb9BP/view"><strong>VIDEO DEMONSTRATION / WALKTHROUGH</strong></a>
+    <a href="https://drive.google.com/file/d/1byog43UnqoTm1w29v0OHrf9TxOl19jre/view"><strong>VIDEO DEMONSTRATION / WALKTHROUGH PART 2</strong></a>
     <br />
     <br />
     <a href="https://github.com/tbegush/e-commerce-store">View Demo</a>
