@@ -42,7 +42,7 @@
   <p align="center">
     Backend for an e-commerce store.
     <br />
-    <a href="https://github.com/tbegush/e-commerce-store"><strong>Explore the docs »</strong></a>
+    <a href="https://drive.google.com/file/d/1HVQ7QSzINn49BwGR18sLl20Pn9-fb9BP/view"><strong>VIDEO DEMONSTRATION / WALKTHROUGH</strong></a>
     <br />
     <br />
     <a href="https://github.com/tbegush/e-commerce-store">View Demo</a>
@@ -104,7 +104,6 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -126,7 +125,6 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -136,7 +134,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 See the [open issues](https://github.com/tbegush/e-commerce-store/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
